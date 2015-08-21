@@ -1,0 +1,14 @@
+---
+meta:
+  environment: ENVIRONMENT
+  dns_root: microbosh
+  security_groups:
+    - test
+  stemcell:
+    name: STEMCELL
+
+director_uuid: DIRECTOR-UUID
+
+releases:
+  - name: test
+    version: latest
