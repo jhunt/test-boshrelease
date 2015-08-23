@@ -14,7 +14,7 @@ update:
 
 jobs:
   - name: test
-    instances: 2
+    instances: 1
     networks:
       - name: test
         static_ips: ~
